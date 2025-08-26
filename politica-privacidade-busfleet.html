@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade – BusFleet</title>
+  <meta name="description" content="Política de Privacidade do aplicativo BusFleet, desenvolvido por Marcelo Cassol.">
+  <meta property="og:title" content="Política de Privacidade – BusFleet">
+  <meta property="og:description" content="Como coletamos, usamos, protegemos e excluímos seus dados no BusFleet.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #22d3ee;
+      --border: #1f2937;
+      --ok: #10b981;
+      --warn: #f59e0b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 920px; margin: 0 auto; padding: 24px; }
+    header { margin: 24px 0 16px; }
+    header h1 { margin: 0 0 6px; font-size: 1.875rem; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; margin: 16px 0; }
+    h2 { margin: 0 0 12px; font-size: 1.35rem; }
+    h3 { margin: 1.2em 0 0.5em; font-size: 1.05rem; }
+    ul { padding-left: 1.2rem; }
+    .tag { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 0.8rem; margin-left: 8px; border: 1px solid var(--border); color: var(--muted); }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    footer { margin: 28px 0 12px; color: var(--muted); font-size: 0.9rem; }
+    code { background: #0b1220; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); }
+    nav { margin: 10px 0 18px; }
+    nav a { margin-right: 14px; font-size: 0.95rem; }
+    .hr { border-top: 1px solid var(--border); margin: 18px 0; }
+    .callout { border-left: 4px solid var(--accent); background: #0b1320; padding: 12px 14px; border-radius: 8px; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PrivacyPolicy",
+    "name": "Política de Privacidade – BusFleet",
+    "publisher": {
+      "@type": "Person",
+      "name": "Marcelo Cassol"
+    },
+    "inLanguage": "pt-BR",
+    "dateModified": "2025-08-25"
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Política de Privacidade – BusFleet</h1>
+      <div class="meta">Última atualização: <strong>25/08/2025</strong></div>
+      <nav>
+        <a href="#informacoes">Informações coletadas</a>
+        <a href="#uso">Como usamos</a>
+        <a href="#compartilhamento">Compartilhamento</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="#exclusao">Exclusão de conta e dados</a>
+        <a href="#direitos">Direitos do usuário</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="hr"></div>
+    </header>
+
+    <section id="intro" class="card">
+      <p>Esta Política de Privacidade descreve como suas informações são coletadas, usadas e protegidas quando você utiliza o aplicativo <strong>BusFleet</strong>, desenvolvido por <strong>Marcelo Cassol</strong>.</p>
+    </section>
+
+    <section id="informacoes" class="card">
+      <h2>1. Informações que coletamos</h2>
+      <ul>
+        <li><strong>Informações de conta</strong>: nome, e-mail, telefone e senha (via Supabase Auth).</li>
+        <li><strong>Identificadores</strong>: ID do usuário para gerenciamento de conta.</li>
+        <li><strong>Dados de uso</strong>: informações sobre como você interage com o app (por exemplo: telas acessadas e tempo de uso).</li>
+        <li><strong>Logs de desempenho</strong>: erros e falhas coletados automaticamente pelo <strong>Expo</strong>.</li>
+      </ul>
+      <p class="callout">Não coletamos dados sensíveis sem seu consentimento explícito.</p>
+    </section>
+
+    <section id="uso" class="card">
+      <h2>2. Como usamos suas informações</h2>
+      <ul>
+        <li>Autenticação e gerenciamento da sua conta.</li>
+        <li>Envio de notificações sobre <strong>rotas, veículos e transportes</strong>.</li>
+        <li>Correção de erros e melhoria da estabilidade do app.</li>
+        <li>Cumprimento de obrigações legais, prevenção de fraude e abuso.</li>
+      </ul>
+    </section>
+
+    <section id="compartilhamento" class="card">
+      <h2>3. Compartilhamento de dados</h2>
+      <ul>
+        <li><strong>Não vendemos nem alugamos</strong> seus dados a terceiros.</li>
+        <li>Os dados são processados e armazenados pelo <strong>Supabase</strong>, exclusivamente para hospedagem e autenticação.</li>
+        <li>Podemos compartilhar informações quando exigido por lei ou mediante seu <strong>consentimento explícito</strong>.</li>
+      </ul>
+    </section>
+
+    <section id="seguranca" class="card">
+      <h2>4. Segurança</h2>
+      <ul>
+        <li>Todos os dados são transmitidos por conexões <strong class="ok">criptografadas (HTTPS/TLS)</strong>.</li>
+        <li>O acesso é restrito e controlado em servidores seguros.</li>
+      </ul>
+    </section>
+
+    <section id="exclusao" class="card">
+      <h2>5. Retenção e exclusão de conta e dados</h2>
+      <p>Ao solicitar a exclusão da conta, serão removidos: <strong>nome, e-mail, telefone, senha</strong> e <strong>registros associados à sua conta de transporte</strong>.</p>
+      <p>Podemos reter temporariamente <strong>logs de auditoria</strong> para fins legais e de segurança.</p>
+      <p>O prazo para exclusão completa é de <strong>até 30 dias</strong>.</p>
+      <h3>Como solicitar exclusão</h3>
+      <p>Envie um e-mail para <a href="mailto:marcelo.cassol.dev@gmail.com">marcelo.cassol.dev@gmail.com</a> com o assunto <em>“Exclusão de Conta – BusFleet”</em> e o e-mail associado à sua conta.</p>
+      <p><strong>Link público para a Play Store:</strong> você pode usar esta mesma página como <em>Delete Account URL</em>.</p>
+    </section>
+
+    <section id="criancas" class="card">
+      <h2>6. Privacidade de crianças</h2>
+      <p>O aplicativo não é direcionado a menores de 13 anos. Caso identifiquemos coleta indevida, removeremos os dados imediatamente.</p>
+    </section>
+
+    <section id="direitos" class="card">
+      <h2>7. Seus direitos</h2>
+      <ul>
+        <li>Acessar os dados que temos sobre você.</li>
+        <li>Corrigir informações incorretas.</li>
+        <li>Solicitar exclusão da sua conta e dados.</li>
+        <li>Revogar consentimentos concedidos (por exemplo, notificações).</li>
+      </ul>
+    </section>
+
+    <section id="alteracoes" class="card">
+      <h2>8. Alterações nesta política</h2>
+      <p>Podemos atualizar esta política periodicamente. Mudanças significativas serão comunicadas dentro do app ou por outros meios apropriados, mantendo esta URL sempre com a versão mais recente.</p>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>9. Contato</h2>
+      <p><strong>Responsável:</strong> Marcelo Cassol<br>
+         <strong>E-mail:</strong> <a href="mailto:marcelo.cassol.dev@gmail.com">marcelo.cassol.dev@gmail.com</a><br>
+         <strong>Cidade/Estado:</strong> Concórdia – SC – Brasil
+      </p>
+    </section>
+
+    <footer>
+      <div class="hr"></div>
+      <p>© 2025 Marcelo Cassol · BusFleet</p>
+    </footer>
+  </div>
+</body>
+</html>
